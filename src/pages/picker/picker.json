@@ -1,0 +1,932 @@
+{
+  "code": 20,
+  "body": [
+    {
+      "id": "largeclass",
+      "name": "班课",
+      "code": "largeclass",
+      "parentId": null,
+      "templates": null,
+      "children": [
+        {
+          "id": "RADBallet",
+          "name": "英皇芭蕾",
+          "code": "RADBallet",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "RADgrade6",
+              "name": "英皇芭蕾6级",
+              "code": "RADgrade6",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade7",
+              "name": "英皇芭蕾7级",
+              "code": "RADgrade7",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade4",
+              "name": "英皇芭蕾4级",
+              "code": "RADgrade4",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade5",
+              "name": "英皇芭蕾5级",
+              "code": "RADgrade5",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade2",
+              "name": "英皇芭蕾2级",
+              "code": "RADgrade2",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade3",
+              "name": "英皇芭蕾3级",
+              "code": "RADgrade3",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADPP",
+              "name": "英皇芭蕾启蒙",
+              "code": "RADPP",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade1",
+              "name": "英皇芭蕾1级",
+              "code": "RADgrade1",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADInterFoundationPoint",
+              "name": "英皇芭蕾专业基础足尖",
+              "code": "RADInterFoundationPoint",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade5Beginner",
+              "name": "英皇芭蕾5级起步",
+              "code": "RADgrade5Beginner",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADInterFoundation",
+              "name": "英皇芭蕾专业基础级",
+              "code": "RADInterFoundation",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADIntermediate",
+              "name": "英皇芭蕾专业中级",
+              "code": "RADIntermediate",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade4Beginner",
+              "name": "英皇芭蕾4级起步",
+              "code": "RADgrade4Beginner",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADgrade3Beginner",
+              "name": "英皇芭蕾3级起步",
+              "code": "RADgrade3Beginner",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADP",
+              "name": "英皇芭蕾初级",
+              "code": "RADP",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADPoint1",
+              "name": "英皇芭蕾足尖1级",
+              "code": "RADPoint1",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADAdvFoundation",
+              "name": "英皇芭蕾高级基础",
+              "code": "RADAdvFoundation",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "RADPoint2",
+              "name": "英皇芭蕾足尖2级",
+              "code": "RADPoint2",
+              "parentId": "RADBallet",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "hiphop",
+          "name": "街舞",
+          "code": "hiphop",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "hiphop02",
+              "name": "街舞2级",
+              "code": "hiphop02",
+              "parentId": "hiphop",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "hiphop03",
+              "name": "街舞3级",
+              "code": "hiphop03",
+              "parentId": "hiphop",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "hiphop04",
+              "name": "街舞4级",
+              "code": "hiphop04",
+              "parentId": "hiphop",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "hiphop01",
+              "name": "街舞1级",
+              "code": "hiphop01",
+              "parentId": "hiphop",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Folkdance",
+          "name": "民族舞",
+          "code": "Folkdance",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Folkdance04",
+              "name": "民族舞1级",
+              "code": "Folkdance04",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance03",
+              "name": "民族舞高级",
+              "code": "Folkdance03",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance02",
+              "name": "民族舞中级",
+              "code": "Folkdance02",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance01",
+              "name": "民族舞初级",
+              "code": "Folkdance01",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance09",
+              "name": "民族舞6级",
+              "code": "Folkdance09",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance08",
+              "name": "民族舞5级",
+              "code": "Folkdance08",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance07",
+              "name": "民族舞4级",
+              "code": "Folkdance07",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance06",
+              "name": "民族舞3级",
+              "code": "Folkdance06",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance05",
+              "name": "民族舞2级",
+              "code": "Folkdance05",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance11",
+              "name": "民族舞8级",
+              "code": "Folkdance11",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Folkdance10",
+              "name": "民族舞7级",
+              "code": "Folkdance10",
+              "parentId": "Folkdance",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "BDAballet",
+          "name": "北舞芭蕾",
+          "code": "BDAballet",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "BDAballet03",
+              "name": "北舞芭蕾3级",
+              "code": "BDAballet03",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "BDAballet04",
+              "name": "北舞芭蕾4级",
+              "code": "BDAballet04",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "BDAballet05",
+              "name": "北舞芭蕾5级",
+              "code": "BDAballet05",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "BDAballet01",
+              "name": "北舞芭蕾1级",
+              "code": "BDAballet01",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "BDAballet02",
+              "name": "北舞芭蕾2级",
+              "code": "BDAballet02",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "BDAPoint",
+              "name": "北舞芭蕾足尖",
+              "code": "BDAPoint",
+              "parentId": "BDAballet",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Flexibility",
+          "name": "软开度训练课",
+          "code": "Flexibility",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Flexibility02",
+              "name": "软开度训练中级",
+              "code": "Flexibility02",
+              "parentId": "Flexibility",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Flexibility01",
+              "name": "软开度训练初级",
+              "code": "Flexibility01",
+              "parentId": "Flexibility",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Flexibility03",
+              "name": "软开度训练高级",
+              "code": "Flexibility03",
+              "parentId": "Flexibility",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Adult",
+          "name": "成人课",
+          "code": "Adult",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Adult10",
+              "name": "成人普拉提",
+              "code": "Adult10",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult07",
+              "name": "成人阿根廷探戈初级",
+              "code": "Adult07",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult06",
+              "name": "成人踢踏舞",
+              "code": "Adult06",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult09",
+              "name": "成人Salsa",
+              "code": "Adult09",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult08",
+              "name": "成人阿根廷探戈中级",
+              "code": "Adult08",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult03",
+              "name": "成人民族舞",
+              "code": "Adult03",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult02",
+              "name": "成人拉丁舞中级",
+              "code": "Adult02",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult05",
+              "name": "成人芭蕾舞",
+              "code": "Adult05",
+              "parentId": "Adult",
+              "templates": null,
+              "children": [
+                {
+                  "id": "Adult0502",
+                  "name": "成人修身芭蕾",
+                  "code": "Adult0502",
+                  "parentId": "Adult05",
+                  "templates": null,
+                  "children": null
+                },
+                {
+                  "id": "Adult0501",
+                  "name": "成人古典芭蕾",
+                  "code": "Adult0501",
+                  "parentId": "Adult05",
+                  "templates": null,
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "Adult04",
+              "name": "成人爵士舞",
+              "code": "Adult04",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult01",
+              "name": "成人拉丁舞初级",
+              "code": "Adult01",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Adult00",
+              "name": "成人拉丁舞无等级",
+              "code": "Adult00",
+              "parentId": "Adult",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Moden",
+          "name": "摩登舞",
+          "code": "Moden",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Modern07",
+              "name": "摩登舞专业级",
+              "code": "Modern07",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern06",
+              "name": "摩登舞6级",
+              "code": "Modern06",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern05",
+              "name": "摩登舞5级",
+              "code": "Modern05",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern04",
+              "name": "摩登舞4级",
+              "code": "Modern04",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern03",
+              "name": "摩登舞3级",
+              "code": "Modern03",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern02",
+              "name": "摩登舞2级",
+              "code": "Modern02",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern01",
+              "name": "摩登舞1级",
+              "code": "Modern01",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modem/JazzGrade2",
+              "name": "摩登爵士舞2级",
+              "code": "Modem/JazzGrade2",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modem/JazzGrade1",
+              "name": "摩登爵士舞1级",
+              "code": "Modem/JazzGrade1",
+              "parentId": "Moden",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Competition",
+          "name": "比赛班",
+          "code": "Competition",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "bisai01",
+              "name": "芭蕾舞比赛定项班",
+              "code": "bisai01",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "bisai03",
+              "name": "拉丁舞比赛1班",
+              "code": "bisai03",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "bisai02",
+              "name": "芭蕾舞比赛定制班",
+              "code": "bisai02",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "bisai05",
+              "name": "摩登舞比赛定项班",
+              "code": "bisai05",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "bisai04",
+              "name": "拉丁舞比赛2班",
+              "code": "bisai04",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "bisai06",
+              "name": "摩登舞比赛定制班",
+              "code": "bisai06",
+              "parentId": "Competition",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "babyballet",
+          "name": "幼儿芭蕾",
+          "code": "babyballet",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "babyballet02",
+              "name": "幼儿芭蕾2级",
+              "code": "babyballet02",
+              "parentId": "babyballet",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "babyballet01",
+              "name": "幼儿芭蕾1级",
+              "code": "babyballet01",
+              "parentId": "babyballet",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Latin",
+          "name": "拉丁舞",
+          "code": "Latin",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Latinboy",
+              "name": "男子拉丁",
+              "code": "Latinboy",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "LatinCouple",
+              "name": "双人拉丁",
+              "code": "LatinCouple",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Latin03",
+              "name": "拉丁舞3级",
+              "code": "Latin03",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Latin02",
+              "name": "拉丁舞2级",
+              "code": "Latin02",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Latin01",
+              "name": "拉丁舞1级",
+              "code": "Latin01",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "LatinP",
+              "name": "拉丁舞初级",
+              "code": "LatinP",
+              "parentId": "Latin",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Takwando",
+          "name": "跆拳道",
+          "code": "Takwando",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Takwando03",
+              "name": "跆拳道高级",
+              "code": "Takwando03",
+              "parentId": "Takwando",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Takwando02",
+              "name": "跆拳道中级",
+              "code": "Takwando02",
+              "parentId": "Takwando",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Takwando01",
+              "name": "跆拳道初级",
+              "code": "Takwando01",
+              "parentId": "Takwando",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Jazz",
+          "name": "爵士舞",
+          "code": "Jazz",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Jazz00",
+              "name": "爵士舞启蒙",
+              "code": "Jazz00",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz07",
+              "name": "爵士舞专业级",
+              "code": "Jazz07",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz08",
+              "name": "爵士舞高级",
+              "code": "Jazz08",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz05",
+              "name": "爵士舞5级",
+              "code": "Jazz05",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz06",
+              "name": "爵士舞6级",
+              "code": "Jazz06",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz03",
+              "name": "爵士舞3级",
+              "code": "Jazz03",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz04",
+              "name": "爵士舞4级",
+              "code": "Jazz04",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz01",
+              "name": "爵士舞1级",
+              "code": "Jazz01",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz02",
+              "name": "爵士舞2级",
+              "code": "Jazz02",
+              "parentId": "Jazz",
+              "templates": null,
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "Tapdance",
+          "name": "踢踏舞",
+          "code": "Tapdance",
+          "parentId": "largeclass",
+          "templates": null,
+          "children": [
+            {
+              "id": "Tap06",
+              "name": "踢踏舞6级",
+              "code": "Tap06",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap05",
+              "name": "踢踏舞5级",
+              "code": "Tap05",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap07",
+              "name": "踢踏舞专业级",
+              "code": "Tap07",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap02",
+              "name": "踢踏舞2级",
+              "code": "Tap02",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap01",
+              "name": "踢踏舞1级",
+              "code": "Tap01",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap04",
+              "name": "踢踏舞4级",
+              "code": "Tap04",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap03",
+              "name": "踢踏舞3级",
+              "code": "Tap03",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Tap00",
+              "name": "踢踏舞初级",
+              "code": "Tap00",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Modern/Tapp",
+              "name": "摩登/踢踏舞初级",
+              "code": "Modern/Tapp",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            },
+            {
+              "id": "Jazz/Tapp",
+              "name": "爵士/踢踏舞初级",
+              "code": "Jazz/Tapp",
+              "parentId": "Tapdance",
+              "templates": null,
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

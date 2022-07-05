@@ -1,0 +1,17 @@
+<!--custom-tab-bar/1/picker.wxml-->
+<view>
+    <van-tabbar custom-class="tab-bar" active="{{ active }}">
+        <block wx:if="{{list.length>=3}}">
+            <van-tabbar-item
+                    wx:for="{{list}}"
+                    wx:key="pagePath"
+                    data-item="{{item}}"
+                    data-index="{{index}}"
+                    icon="{{item.icon}}"
+                    bind:tap="handleClick"
+            >
+                {{item.text}}
+            </van-tabbar-item>
+        </block>
+    </van-tabbar>
+</view>

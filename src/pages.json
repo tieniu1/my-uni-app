@@ -1,16 +1,69 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/class/class"
+    },
+    {
+      "path": "pages/order/order"
+    },
+    {
+      "path": "pages/profile/profile"
+    },
+    {
+      "path": "pages/welcome/welcome"
+    },
+    {
+      "path": "pages/login/login"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-picker": "/wxcomponents/vant/picker/index",
+      "van-popup": "/wxcomponents/vant/popup/index",
+      "van-tabbar": "/wxcomponents/vant/tabbar/index",
+      "van-tabbar-item": "/wxcomponents/vant/tabbar-item/index"
+    }
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#999",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/Home.png",
+        "selectedIconPath": "static/Home_h.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "班级",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order_h.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order_h.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/class.png",
+        "selectedIconPath": "static/class_h.png"
+      }
+    ]
+  }
 }
