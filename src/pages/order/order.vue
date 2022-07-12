@@ -1,20 +1,18 @@
 <template>
   <view>
-    order
   </view>
 </template>
 
 <script>
+import {setTabBarActive} from "../../utils/uni";
+
 export default {
   name: "order",
   onShow() {
-    if (this.$mp.page && typeof this.$mp.page.getTabBar === 'function' && this.$mp.page.getTabBar()) {
-      this.$mp.page.getTabBar().setData({
-        active: 1,
-        isShow: true
-      })
-    }
+    setTabBarActive(this, 1)
   },
+  computed:{
+  }
 }
 </script>
 

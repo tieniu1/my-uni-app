@@ -1,5 +1,6 @@
 <template>
   <view class="main">
+
     <selectUser @change="radioChange"/>
     <view>
       <button type="primary"  size="mini"  @click="changeUser">切换角色</button>

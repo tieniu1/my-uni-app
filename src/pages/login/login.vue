@@ -1,5 +1,15 @@
 <template>
   <view class="main">
+    <view class="i18n-text">
+      <view style="font-size: 20px;font-weight: bold">i18n</view>
+      <view>{{$t('title')}}</view>
+      <view>
+        {{$t('index.title')}}
+      </view>
+      <view>{{$t('index.msg',{msg:'你1231231'})}}</view>
+      <view style="color: red">{{$tc('index.day',2)}}</view>
+      <view style="color: red">{{$tc('index.day',1)}}</view>
+    </view>
     <selectUser @change="radioChange"/>
     <view>
       <van-button
@@ -31,6 +41,10 @@ export default {
       this.radioVal = value
     }
   },
+  onShow(){
+    console.log('login onshow:::::::::::')
+    console.log('uni.getLocale:::::::::',uni)
+  }
 }
 </script>
 
@@ -47,5 +61,8 @@ export default {
 .user-select {
   display: flex;
   gap: 20px;
+}
+.i18n-text{
+  color: #196dbd;
 }
 </style>

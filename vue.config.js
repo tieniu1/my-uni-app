@@ -1,6 +1,17 @@
-module.exports={
+const TransformPages = require('uni-read-pages')
+const {webpack} = new TransformPages()
+module.exports = {
   configureWebpack: {
-    devtool: 'source-map'
+    devtool: 'source-map',
+    plugins: [
+      new webpack.DefinePlugin({
+        ROUTES: webpack.DefinePlugin.runtimeValue(() => {
+          const tfPages = new TransformPages({
+            includes: ['path', 'name', 'aliasPath']
+          });
+          return JSON.stringify(tfPages.routes)
+        }, true)
+      })
+    ]
   }
 }
-
