@@ -2,11 +2,12 @@
   <view class="tree" id="my">
     <view>
       <view class="item" v-for="list in lists">
-        <a href="#" class="title" @click="curShow(list)">
+        <view class="title" @click="curShow(list)">
           {{ list.name }}
           <b :class="list.flag?'down':'up'">^</b>
-        </a>
-        <view class="p_item" :style="{maxHeight:list.flag?maxHeight:0,'overflow':'hidden'}" >
+        </view>
+        <!-- 这里是关键-->
+        <view class="p_item" :style="{maxHeight:list.flag?maxHeight:0,'overflow':'hidden'}">
           <view id="p-list-inner">
             <view v-for="sub in list.sublists">
               <a>{{ sub.name }}</a>
@@ -75,7 +76,7 @@ export default {
           ]
         }
       ],
-      maxHeight:0
+      maxHeight: 0
     }
   },
   methods: {
@@ -91,9 +92,9 @@ export default {
       });
     },
     curShow: function (list) {
-      this.getRect(this,'#p-list-inner').then(res=>{
+      this.getRect(this, '#p-list-inner').then(res => {
         console.log(res)
-        this.maxHeight = res.height +'px'
+        this.maxHeight = res.height + 'px'
         //取反来控制一级选项的显示与隐藏
         list.flag = !list.flag;
         console.log(list.flag)
@@ -135,6 +136,8 @@ export default {
   position: absolute;
   right: 10px;
   transition: all ease 0.6s;
+  top: 50%;
+  margin-top: -7px;
 }
 
 .up {
@@ -144,9 +147,11 @@ export default {
 .down {
   transform: rotate(180deg);
 }
-.p_item{
-  transition:max-height 0.4s ease;
+
+.p_item {
+  transition: max-height 0.4s ease;
 }
+
 .tree .p_item a {
   padding: 3px 0 0 10px;
   color: white;
