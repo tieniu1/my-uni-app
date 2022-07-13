@@ -9,7 +9,10 @@ import {setTabBarActive} from "../../utils/uni";
 
 export default {
   name: "profile",
-  onShow() {
+  onShow() {    console.log('this._uid:::::::',this._uid)
+    if(this._uid!=0){
+      this.$Router.forceGuardEach()
+    }
     setTabBarActive(this,2)
   },
 }

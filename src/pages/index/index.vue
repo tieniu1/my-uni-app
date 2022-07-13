@@ -3,7 +3,10 @@
 
     <selectUser @change="radioChange"/>
     <view>
-      <button type="primary"  size="mini"  @click="changeUser">切换角色</button>
+      <button type="primary" size="mini" @click="changeUser">切换角色</button>
+    </view>
+    <view>
+      <button @click="toCheckin">跳转到checkin</button>
     </view>
   </view>
 </template>
@@ -20,10 +23,19 @@ export default {
     }
   },
   onShow() {
+    console.log('this._uid:::::::', this._uid)
+    if (this._uid != 0) {
+      this.$Router.forceGuardEach()
+    }
     setTabBarActive(this, 0)
-    console.log(123)
   },
   methods: {
+    toCheckin() {
+      // this.$Router.push("/pagesFront/checkin/checkin")
+      uni.navigateTo({
+        url:'/pagesFront/checkin/checkin'
+      })
+    },
     radioChange(value) {
       this.radioVal = value
     },
@@ -36,7 +48,7 @@ export default {
 </script>
 
 <style scoped>
-.main{
+.main {
   height: 100vh;
   display: flex;
   gap: 80px;
